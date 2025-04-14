@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Farmer chat</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+       <header><h1>Farmer Chat Room</h1></header>
+
+       <nav>
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="register.html">Register</a></li>
+             <li><a href="login.html">Login</a></li>
+             <li><a href="regions.html">Regions & Crops</a></li>
+             <li><a href="chat.html">Farmer Chat</a></li>
+             <li><a href="post_product.html">Post Product</a></li>
+         </ul>
+       </nav>
+
+        <div class="container">
+          <div class="chat-wrapper">
+              <div class="chat-box" id="chat-box">
+                 <div class="message left">
+                     <span class="sender">Alice:</span>
+                     <p>How is the rain today in your region?</p>
+                  </div>
+
+                  <div class="message right">
+                     <span class="sender">You:</span>
+                     <p>It rained in the morning, but now it's sunny.</p>
+                  </div>
+
+                  <div class="message left">
+                     <span class="sender">Benson:</span>
+                     <p>Same here, maize is doing great now.</p>
+                  </div>
+              </div>
+
+              <div class="chat-input-area">
+                 <input type="text" placeholder="Type your message..." id="message-input">
+                 <button id="send-btn"><i class="fas fa-paper-plane"></i>send</button>
+              </div>
+          </div>
+       </div>
+       <footer id="footer"><!--footer section-->
+        <p>&copy; 2025 Tech Jobs & Mentorship</p>
+        <p>Follow us:
+            <a href="#">Instagram | </a>
+            <a href="#">X | </a>
+            <a href="#">Telegram</a>
+        </p>
+       </footer>
+   </body>
+</html>
+

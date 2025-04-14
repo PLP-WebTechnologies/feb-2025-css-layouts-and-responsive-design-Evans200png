@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post a Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Post a Product</h1></header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="regions.html">Regions & Crops</a></li>
+      <li><a href="chat.html">Farmer Chat</a></li>
+      <li><a href="post_product.html">Post Product</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Post Your Agricultural Product</h2>
+    <form class="product-form">
+      <label for="product-name">Product Name:</label><br>
+      <input type="text" id="product-name" name="product-name" required><br><br>
+      
+      <label for="description">Description:</label><br>
+      <textarea id="description" name="description" required></textarea><br><br>
+      
+      <label for="price">Price (optional):</label><br>
+      <input type="text" id="price" name="price"><br><br>
+
+      <label for="product-image">Product Image:</label><br>
+      <input type="file" id="product-image" name="product-image"><br><br>
+
+      <button type="submit">Post Product</button>
+    </form>
+
+    <h3>Latest Posted Products</h3>
+    <div class="flex-items">
+      <!-- Example product listing -->
+      <div>
+        <img src="https://images.pexels.com/photos/1459331/pexels-photo-1459331.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Product Image" width="40%">
+        <h4>Maize</h4>
+        <p><h5>Price:</h5> $50</p>
+        <p><h5>Farmer:</h5> John Doe</p>
+        <p><h5>Contact Info:</h5> +254 745 236473</p>
+        <p><h5>Description:</h5> Dry Katuma maize</p>
+      </div>
+      <div>
+        <img src="https://media.istockphoto.com/id/1545800730/photo/organic-tomato-greenhouse.jpg?s=1024x1024&w=is&k=20&c=wwtvO2VVYJ1JT24ndpamClSeMtLw-W-dW8yiBzpmkwA=" alt="product image" width="50%">
+        <h4>Tomatoes</h4>
+        <p><h5>Price: </h5> $30</p>
+        <p><h5>Farmer: </h5> Peter Clause</p>
+        <p><h5>Contact Info: </h5> +234 567 256954</p>
+        <p><h5>Description: </h5> Fresh organic tomatoes from the farm</p>
+      </div>
+      <div>
+        <img src="https://images.pexels.com/photos/2518893/pexels-photo-2518893.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" width="60%">
+        <h4>Cabbages</h4>
+        <p><h5>Price: </h5> $25</p>
+        <p><h5>Farmer: </h5> Evelyne Marsher</p>
+        <p><h5>Contact Info: </h5> +224 467 756054</p>
+        <p><h5>Description: </h5> Fresh cabbages from the farm</p>
+      </div>
+    </div>
+  </div>
+  <footer id="footer"><!--footer section-->
+    <p>&copy; 2025 Tech Jobs & Mentorship</p>
+    <p>Follow us:
+        <a href="#">Instagram | </a>
+        <a href="#">X | </a>
+        <a href="#">Telegram</a>
+    </p>
+  </footer>
+</body>
+</html>
+
